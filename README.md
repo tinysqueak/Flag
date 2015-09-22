@@ -1,3 +1,3 @@
 # Flag
 
-APCS Flag assignement
+APCS Flag assignment
