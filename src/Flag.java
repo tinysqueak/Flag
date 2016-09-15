@@ -247,8 +247,4 @@ class FlagFrame extends JFrame {
 
 	}
 
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 31dc30d6ed680e7b663f52c545c8dbeb2d7e94db
