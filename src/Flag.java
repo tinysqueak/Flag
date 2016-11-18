@@ -25,8 +25,8 @@ class FlagFrame extends JFrame {
 	private static final Color OLD_GLORY_BLUE = new Color(0x3C3B6E);
 
 	//Ratios of various components of the flag with respect to the flag height
-	private static final double FLAG_HEIGHT = 1.0; 
-	private static final double FLAG_WIDTH = 1.9; 
+	private static final double FLAG_HEIGHT = 1.0;
+	private static final double FLAG_WIDTH = 1.9;
 	private static final double UNION_WIDTH = .76;
 	private static final double UNION_HEIGHT = 7.0 / 13.0;
 	private static final double STAR_Y_OFFSET = .054;
@@ -176,7 +176,7 @@ class FlagFrame extends JFrame {
 	 * uses a series of for loops to draw the stars, drawing them row by row and 1 by 1 across each
 	 * row. The outer most for loop increments each row while also determining the number of stars in
 	 * each row and the initial x offset for the first star, both of which vary depending on the row
-	 * number. The intermediate for loop increments each column while also determining the X and Y 
+	 * number. The intermediate for loop increments each column while also determining the X and Y
 	 * coordinate centers for each star. The inner most for loop generates the x and y coordinates for
 	 * each of the 10 vertices for each star and stores them in their respective arrays to be used by
 	 * the fillPolygon method to draw each star.
@@ -214,7 +214,7 @@ class FlagFrame extends JFrame {
 
 			for(int col = 0; col < starsPerRow; col++) {
 
-				/* The x-coordinate center is calculated based on the initial width offset and the star x 
+				/* The x-coordinate center is calculated based on the initial width offset and the star x
 				 * offset proportional to the actual height, in addition to the initial star x offset and the
 				 * column number. The x-coordinate center is incremented by the 2 times the star x offset in
 				 * proportion to the actual height for each iteration of the intermediate for loop. The

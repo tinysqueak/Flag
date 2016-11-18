@@ -2,7 +2,7 @@ The purpose of this project was to create U.S. Flag applet that scales.
 
 This fulfills the specifications as a scalable U.S. Flag in the correct
 proportions was drawn and displayed on a frame. An ambiguity in the
-specifications involved the issue of the exact colors of the flag. The 
+specifications involved the issue of the exact colors of the flag. The
 specifications did not include mention of the exact color to be used, so the
 exact colors were taken from a third party website that provided information
 on them.
